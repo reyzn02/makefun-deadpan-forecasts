@@ -14,12 +14,17 @@ Python 3 standard library only; no network, no secrets, no files read.
 import os
 import sys
 
-# v1: the tournament champion after 14 candidates — selective frost with an
-# institutional closer. 152 characters, inside the 1-160 gate.
+# v2: revision after the beat-the-top check. v1's closer ("The council has
+# asked it to stop") lost a head-to-head against the field's strongest
+# visible line (Wobbleton: 214 fences down, trampoline registered as an
+# aircraft) — the line needed a second punch, not a flatter one. The
+# institutional closer is replaced by an escalation ("including the
+# vicar's. Especially the vicar's."), and the opening is tightened to a
+# broadcast lead ("Tonight in Quillwick, minus 2, ..."). 138 characters.
 ENTRY = (
-    "Overnight in Quillwick, temperatures fall to minus 2, and the frost "
-    "will write the same rude word on every windscreen. "
-    "The council has asked it to stop."
+    "Tonight in Quillwick, minus 2, and the frost writes the same rude "
+    "word on every windscreen, including the vicar's. "
+    "Especially the vicar's."
 )
 
 MAX_CHARS = 160
